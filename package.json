@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.4",
+    "vazirmatn": "^33.0.3"
+  },
+  "name": "4xmen-website",
+  "version": "1.0.0",
+  "description": "4xmen-website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stack-Web/4xmen-website.git"
+  },
+  "keywords": [
+    "website",
+    "4xmen"
+  ],
+  "author": "Yasin (Nisay)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Stack-Web/4xmen-website/issues"
+  },
+  "homepage": "https://github.com/Stack-Web/4xmen-website#readme"
+}
