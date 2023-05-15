@@ -1,0 +1,183 @@
+$color_1: var(--light-color);
+$color_2: var(--color-purple);
+$color_3: #909090;
+$font-family_1: "Vazirmatn", serif;
+$background-color_1: var(--color-bg1);
+$background-color_2: var(--color-purple);
+
+/* hamburger menu */
+&:root {
+	--color-bg1: #14181B;
+	--color-bg2: #1D2429;
+	--color-purple: #4B39EF;
+	--color-green: #31BFAE;
+	--color-orange: #EE8B60;
+	--light-color: #FfF7F7;
+}
+* {
+	font-family: $font-family_1;
+	box-sizing: border-box;
+}
+body {
+	background-color: $background-color_1;
+}
+p {
+	margin-bottom: 0 !important;
+}
+button {
+	border: none;
+	background: transparent;
+}
+ul {
+	list-style: none;
+}
+header {
+	position: sticky;
+	top: 0;
+}
+.header {
+	background: rgba(20,24,27, 0.7);
+}
+.header-items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navbar-links {
+	text-decoration: none;
+	color: $color_1;
+	font-weight: 500;
+	font-size: 14px;
+	position: relative;
+	cursor: pointer;
+	transition: all ease-in-out 0.4s;
+	transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+	&:focus {
+		background: -webkit-linear-gradient(right, #4B39EF 0%, #ddd 80%, #31BFAE 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		&:after {
+			width: 100%;
+			left: 0%;
+		}
+	}
+	&:hover {
+		background: -webkit-linear-gradient(right, #4B39EF 0%, #ddd 80%, #31BFAE 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		&:after {
+			width: 100%;
+			left: 0%;
+		}
+	}
+	&:after {
+		content: "";
+		pointer-events: none;
+		bottom: -2px;
+		left: 50%;
+		position: absolute;
+		width: 0%;
+		height: 2px;
+		background: linear-gradient(60deg, #31BFAE 0%, #ddd 20%, #4B39EF 100%);
+		transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+		transition-duration: 400ms;
+		transition-property: width, left;
+	}
+}
+.btn-primary {
+	background-color: $background-color_2;
+	border: 1px solid var(--color-purple);
+	color: $color_1;
+	border-radius: 8px;
+	padding: 6px 15px;
+}
+.btn-primary2 {
+	background: rgb(75, 57, 239);
+	background: linear-gradient(90deg, rgba(75, 57, 239, 0.4) 0%, rgba(75, 57, 239, 1) 80%);
+	color: $color_1;
+	border-radius: 8px;
+	padding: 6px 15px;
+	font-size: 14px;
+}
+.header-icon {
+	color: $color_2;
+	font-size: 23px;
+}
+#menu-wrapper {
+	overflow: hidden;
+	max-width: 100%;
+	cursor: pointer;
+	#hamburger-menu {
+		position: relative;
+		width: 20px;
+		height: 21px;
+		margin: 0 15px;
+		span {
+			opacity: 1;
+			left: 0;
+			display: block;
+			width: 100%;
+			height: 3px;
+			border-radius: 10px;
+			background-color: $background-color_2;
+			position: absolute;
+			transform: rotate(0deg);
+			transition: .4s ease-in-out;
+			&:nth-child(1) {
+				top: 0;
+			}
+			&:nth-child(2) {
+				top: 9px;
+			}
+			&:nth-child(3) {
+				top: 18px;
+			}
+		}
+	}
+	#hamburger-menu.open {
+		span {
+			&:nth-child(1) {
+				transform: translateY(9px) rotate(135deg);
+			}
+			&:nth-child(2) {
+				opacity: 0;
+				transform: translateX(-60px);
+			}
+			&:nth-child(3) {
+				transform: translateY(-9px) rotate(-135deg);
+			}
+		}
+	}
+}
+#menu-container {
+	.menu-list {
+		padding-left: 0;
+		margin-top: 40px;
+		display: block;
+		position: absolute;
+		width: 100%;
+		max-width: 450px;
+		background: var(--color-bg2);
+		border-radius: 0 10px 10px 0;
+		z-index: 999;
+		overflow-y: auto;
+		overflow-x: hidden;
+		left: -100%;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+.menu-link {
+	color: $color_1;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	transition: all ease-in-out 0.3s;
+	&:hover {
+		font-size: 15px;
+		color: $color_3;
+	}
+}
+.toggle {
+	padding: 7px 0;
+}
