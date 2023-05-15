@@ -23,7 +23,8 @@ $color-orange: #EE8B60;
   outline: none;
   list-style: none;
 }
-.paragraph{
+
+.paragraph {
   padding-top: 80px;
   color: $color-text;
   font-weight: bolder;
@@ -179,7 +180,8 @@ $color-orange: #EE8B60;
 
 // footer
 
-// about-us
+//about-us.html
+// our story
 #our-story {
   .img {
     max-width: 1400px;
@@ -190,8 +192,9 @@ $color-orange: #EE8B60;
     background-position: center center;
     background-repeat: no-repeat;
   }
-  h3{
-    margin-top: 80px ;
+
+  h3 {
+    margin-top: 80px;
     background: -webkit-linear-gradient(right, #4B39EF 0%, #ddd 80%, #31BFAE 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -199,4 +202,52 @@ $color-orange: #EE8B60;
   }
 }
 
-// about-us
+// our story
+// our service
+#our-service {
+  background-color: $color-bg2;
+padding: 50px 0 90px 0;
+
+  .service-box {
+    span {
+      border: 1px solid $color-gray;
+      padding: 3px 40px 3px 40px;
+      border-radius: 50px;
+      font-size: 15px;
+      letter-spacing: 2px;
+      font-weight: bolder;
+      color: $color-text;
+    }
+
+    h3 {
+      font-weight: bolder;
+      font-size: 80px;
+    }
+  }
+
+  .service-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: $color-text;
+  }
+  .serv-item {
+    padding: 60px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: block;
+    color: white;
+
+    h3{
+      font-size:30px;
+      font-weight: lighter;
+    }
+    p{
+      font-size:16px;
+      font-weight: lighter;
+      text-align: justify;
+      padding-top: 37px;
+    }
+  }
+}
