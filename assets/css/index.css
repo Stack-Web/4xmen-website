@@ -1,6 +1,20 @@
 * {
   font-family: "Vazirmatn", serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  outline: none;
+  list-style: none;
+}
+
+.paragraph {
+  padding-top: 80px;
+  color: #ddd;
+  font-weight: bolder;
+  line-height: 1.7;
+  text-align: justify;
+  font-size: 19px;
 }
 
 .footer-box {
@@ -12,6 +26,7 @@
   color: #4B39EF;
 }
 .footer-box footer .nav-item a {
+  display: inline-flex;
   color: #ddd;
 }
 .footer-box footer .nav-item a:hover {
@@ -112,6 +127,23 @@
   .footer-box footer .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+}
+
+#our-story .img {
+  max-width: 1400px;
+  height: 400px;
+  background-image: url("../img/about/about1.jpg");
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#our-story h3 {
+  margin-top: 80px;
+  background: -webkit-linear-gradient(right, #4B39EF 0%, #ddd 80%, #31BFAE 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80px;
 }
 
 /*# sourceMappingURL=index.css.map */
