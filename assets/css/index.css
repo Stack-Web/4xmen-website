@@ -314,4 +314,13 @@
   filter: blur(30px) drop-shadow(20px 20px 20px #31BFAE);
 }
 
+#about-cards {
+  padding-top: 50px;
+}
+#about-cards h1 {
+  font-weight: bolder;
+  font-size: 45px;
+  color: #ddd;
+}
+
 /*# sourceMappingURL=index.css.map */
