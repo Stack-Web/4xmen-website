@@ -206,7 +206,7 @@ $color-orange: #EE8B60;
 // our service
 #our-service {
   background-color: $color-bg2;
-padding: 50px 0 90px 0;
+  padding: 50px 0 90px 0;
 
   .service-box {
     span {
@@ -232,6 +232,7 @@ padding: 50px 0 90px 0;
     height: 100%;
     color: $color-text;
   }
+
   .serv-item {
     padding: 60px 40px;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -239,15 +240,166 @@ padding: 50px 0 90px 0;
     display: block;
     color: white;
 
-    h3{
-      font-size:30px;
+    h3 {
+      font-size: 30px;
       font-weight: lighter;
     }
-    p{
-      font-size:16px;
+
+    p {
+      font-size: 16px;
       font-weight: lighter;
       text-align: justify;
       padding-top: 37px;
     }
   }
 }
+
+// our service
+
+// faq
+#faq {
+  .valign {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    .imgs {
+      position: relative;
+      margin-bottom: 80px !important;
+
+      .img1 {
+        margin: 50px;
+
+        &:before {
+          content: '';
+          position: absolute;
+          right: -30px;
+          bottom: -30px;
+          width: 200px;
+          height: 200px;
+          background-image: url("../img/about/dots2.png");
+          background-repeat: repeat;
+          z-index: -1;
+        }
+
+        img {
+          width: 100%;
+          height: auto;
+          border-radius: 30px;
+        }
+
+        &:after {
+          content: '';
+          position: absolute;
+          left: -2px;
+          top: 0;
+          width: 8px;
+          height: 150px;
+          background: $color-green;
+        }
+      }
+
+      .img2 {
+        position: absolute;
+        bottom: -50px;
+        left: 0;
+        width: 50%;
+        z-index: 4;
+
+        img {
+          width: 100%;
+          height: auto;
+          border-radius: 10px;
+          border: 1px double $color-purple;
+        }
+
+      }
+    }
+  }
+
+  .jumbotron {
+    color: $color-text;
+
+    .jumb-title {
+      background: -webkit-linear-gradient(right, $color-purple 0%, $color-orange 60%, $color-green 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 60px;
+    }
+
+    @keyframes radar81 {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .spin {
+      margin: auto;
+      position: relative;
+      width: 170px;
+      height: 170px;
+      background: transparent;
+      border-radius: 50%;
+      box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.55);
+      border: 1px solid #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+
+      &::before {
+        content: '';
+        position: absolute;
+        inset: 20px;
+        background: transparent;
+        border: 1px dashed #444;
+        border-radius: 50%;
+        box-shadow: inset -5px -5px 25px rgba(0, 0, 0, 0.25), inset 5px 5px 35px rgba(0, 0, 0, 0.25);
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px dashed #444;
+        box-shadow: inset -5px -5px 25px rgba(0, 0, 0, 0.25), inset 5px 5px 35px rgba(0, 0, 0, 0.25);
+      }
+
+      span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 50%;
+        height: 100%;
+        background: transparent;
+        transform-origin: top left;
+        animation: radar81 2s linear infinite;
+        border-top: 1px dashed #fff;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: $color-green;
+          transform-origin: top left;
+          transform: rotate(-55deg);
+          filter: blur(30px) drop-shadow(20px 20px 20px $color-green);
+        }
+      }
+    }
+  }
+}
+
+
+// faq
