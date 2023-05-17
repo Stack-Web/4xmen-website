@@ -316,11 +316,43 @@
 
 #about-cards {
   padding-top: 50px;
+  background: #1D2429;
 }
 #about-cards h1 {
   font-weight: bolder;
   font-size: 45px;
   color: #ddd;
+}
+#about-cards .card-box .card-item {
+  position: relative;
+  text-align: center;
+  padding: 80px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  color: #ddd;
+}
+#about-cards .card-box .card-item:hover {
+  filter: blur(1px);
+}
+#about-cards .card-box .card-item img {
+  opacity: 0.8;
+  max-width: 100px;
+  margin: auto;
+  position: relative;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+  #about-cards .card-box .card-item {
+    padding: 40px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  #about-cards h1 {
+    font-size: 24px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
