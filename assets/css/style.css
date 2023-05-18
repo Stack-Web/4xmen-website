@@ -5,6 +5,8 @@
   --color-green: #31BFAE;
   --color-orange: #EE8B60;
   --light-color: #FfF7F7;
+  --gray-color: #9f9e9e;
+  --white: #e0e0e4;
 }
 
 * {
@@ -191,4 +193,129 @@ header {
 
 .toggle {
   padding: 7px 0;
+}
+
+
+/* header finished */
+
+/* main index, hero section */
+
+.main-title {
+  color: var(--light-color);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.main-text {
+  color: var(--color-orange);
+  font-size: 20px;
+  padding-top: 15px;
+  max-width: 600px;
+  line-height: 1.8;
+}
+
+
+.neon-btn {
+  margin-top: 20px;
+  width: 10em;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge var(--color-orange);
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.neon-btn::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: transparent;
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.neon-btn::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+.neon-btn:hover::before, .neon-btn:hover::after {
+  transform: scale(0)
+}
+
+.neon-btn:hover {
+  box-shadow: inset 0px 0px 25px var(--color-orange);
+}
+
+.reason-bg {
+  background: var(--white);
+  width: 100%;
+  height: 100%;
+}
+
+.reason2 {
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondary-text {
+  color: var(--color-bg1);
+  font-size: 17px;
+  font-weight: 500;
+  max-width: 120px;
+}
+
+.reason-text {
+  color: var(--color-bg2);
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.reason-text2 {
+  color: var(--color-green);
+  font-size: 18px;
+  /* line-height: 1.7; */
+}
+
+.items-text {
+  color: var(--color-bg1);
+  font-size: 17px;
+  padding: 10px 0;
+}
+
+.items-text2 {
+  color: var(--gray-color);
+  max-width: 200px;
+}
+
+.items-box {
+  padding: 10px 0;
+}
+.items-icon {
+  background-color: var(--color-green);
+  border-radius: 8px;
+  display: inline-flex;
+  padding: 6px;
+justify-content: center;
+align-items: center;
 }
