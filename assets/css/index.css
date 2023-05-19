@@ -403,4 +403,21 @@
   padding: 120px 0;
 }
 
+@media screen and (max-width: 768px) {
+  #start-call .sec-lg-head .ontop .valign h1 {
+    letter-spacing: 2px;
+    font-size: 30px;
+  }
+  #start-call .sec-lg-head .ontop .valign span {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #start-call .sec-bg-img {
+    width: 100%;
+    margin-bottom: 0;
+    height: 250px;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */

@@ -465,6 +465,7 @@ $color-orange: #EE8B60;
 #start-call {
   background: $color-bg2;
   overflow-x: hidden;
+
   .sec-bg-img {
     height: 450px;
     width: 130%;
@@ -485,24 +486,27 @@ $color-orange: #EE8B60;
       height: 100%;
       background: $color-bg1;
     }
-    .ontop{
+
+    .ontop {
       position: relative;
       z-index: 7;
-      .valign
-      {
+
+      .valign {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        h1{
-          font-size: 52px ;
+
+        h1 {
+          font-size: 52px;
           font-weight: bolder;
           letter-spacing: 2px;
-         color: $color-text;
-          span{
-            font-size: 30px ;
+          color: $color-text;
+
+          span {
+            font-size: 30px;
             font-weight: bold;
             letter-spacing: 0;
             color: gray;
@@ -511,10 +515,41 @@ $color-orange: #EE8B60;
       }
     }
   }
-  .section-padding{
+
+  .section-padding {
     padding: 120px 0;
   }
-
 }
+
+@media screen and (max-width: 768px) {
+  #start-call {
+    .sec-lg-head {
+      .ontop {
+        .valign {
+          h1 {
+            letter-spacing: 2px;
+            font-size: 30px;
+
+          }
+
+          span {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #start-call {
+    .sec-bg-img {
+      width: 100%;
+      margin-bottom: 0;
+      height: 250px;
+    }
+  }
+}
+
 
 // get in touch
