@@ -18,8 +18,7 @@
 }
 
 .footer-box {
-  border-top: 2px solid #909090;
-  background: #14181B;
+  background: #1D2429;
   color: #ddd;
 }
 .footer-box h5 {
@@ -353,6 +352,55 @@
   #about-cards h1 {
     font-size: 24px;
   }
+}
+#start-call {
+  background: #1D2429;
+  overflow-x: hidden;
+}
+#start-call .sec-bg-img {
+  height: 450px;
+  width: 130%;
+  position: relative;
+  margin-bottom: -200px;
+}
+#start-call .sec-lg-head {
+  position: relative;
+}
+#start-call .sec-lg-head:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400%;
+  height: 100%;
+  background: #14181B;
+}
+#start-call .sec-lg-head .ontop {
+  position: relative;
+  z-index: 7;
+}
+#start-call .sec-lg-head .ontop .valign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+#start-call .sec-lg-head .ontop .valign h1 {
+  font-size: 52px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: #ddd;
+}
+#start-call .sec-lg-head .ontop .valign h1 span {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  color: gray;
+}
+#start-call .section-padding {
+  padding: 120px 0;
 }
 
 /*# sourceMappingURL=index.css.map */
