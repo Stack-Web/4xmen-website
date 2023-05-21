@@ -550,6 +550,17 @@ $color-orange: #EE8B60;
     }
   }
 }
-
-
 // get in touch
+
+// grid works
+#grid-works{
+  .row{
+    .works-box{
+      img{
+        width: 100% ;
+        height: 256px ;
+      }
+    }
+  }
+}
+// grid works
