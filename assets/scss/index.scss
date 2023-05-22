@@ -571,15 +571,20 @@ $color-orange: #EE8B60;
       text-align: center;
       font-size: 20px;
      color: $color-text;
+      text-shadow: 3px 3px 5px $color-bg1;
+      cursor: default;
     }
 
     .text-desc {
       text-align: center;
       font-size: 16px;
       color: #FfF7F7;
+      text-shadow: 5px 5px 5px $color-bg2;
+      cursor: default;
     }
 
     button {
+      cursor: pointer;
       margin: 12px auto;
       z-index: 2;
       display: block;
@@ -706,7 +711,6 @@ $color-orange: #EE8B60;
       width: 60px;
       cursor: auto;
     }
-
   }
 }
 // grid works
