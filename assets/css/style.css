@@ -448,3 +448,7 @@ header {
 .blogs-link {
   text-decoration: none;
 }
+
+.justify-text{
+  text-align: justify;
+}
