@@ -406,7 +406,7 @@ header {
 .blogs-small-color-title {
   background: radial-gradient(circle, #2ca2b4, #5598de 24%, #7f87ff 45%, #ec3d43, #f65aad 76%, );
   background-clip: text;
-  color: transparent; 
+  color: transparent;
   background: -webkit-linear-gradient(right, #4B39EF 0%, #ddd 80%, #31BFAE 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -447,4 +447,75 @@ header {
 
 .blogs-link {
   text-decoration: none;
+}
+
+/* single blog */
+.color-title-2 {
+  font-size: 90px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(right, #EE8B60 0%, #ddd 60%, #31BFAE 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.single-blog-hero {
+  justify-content: space-evenly;
+  border-bottom: 1px solid #2b3236;
+}
+
+.bg-gray1 {
+  background-color: #F6F6F6;
+}
+
+.blog-btn {
+  background-color: var(--gray-color);
+  border-radius: 10px;
+  text-align: center;
+  color: var(--color-bg1);
+  padding: 7px 15px;
+  width: 100%;
+}
+
+.blog-sticky-sidebar {
+  position: sticky;
+  top: 80px;
+}
+
+.blogs-complete-description {
+  font-size: 18px;
+  color: var(--light-color);
+  line-height: 2.5;
+  text-align: justify;
+}
+
+.blog-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background: #1D2429;
+  box-shadow: 0px 0px 23px 8px rgba(11,14,15,0.64);
+  border-radius: 10px;
+}
+
+.blog-box-img {
+  padding-top: 60%;
+  background-image: url("/assets/img/blogs/blog-1.webp");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px 10px 0 0
+}
+
+.blog-box-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.blog-box-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
 }
