@@ -18,7 +18,7 @@
 }
 
 .footer-box {
-  background: #1D2429;
+  background: #14181B;
   color: #ddd;
 }
 .footer-box h5 {
@@ -554,6 +554,22 @@
 #grid-works .works-pagination .button.active {
   width: 60px;
   cursor: auto;
+}
+
+#main-form .up-contact {
+  background-color: #1D2429;
+  color: #ddd;
+  letter-spacing: 0.1px;
+}
+#main-form #user-form {
+  background-color: #1D2429;
+  color: #ddd;
+}
+#main-form #user-form label {
+  color: #ddd;
+  font-weight: bolder;
+  font-size: 22px;
+  margin: 20px 0 20px 0;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -38,7 +38,7 @@ $color-orange: #EE8B60;
 // footer
 .footer-box {
   //border-top: 2px solid $color-gray;
-  background: $color-bg2;
+  background: $color-bg1;
   color: $color-text;
 
   h5 {
@@ -714,3 +714,26 @@ $color-orange: #EE8B60;
   }
 }
 // grid works
+
+// contact us - user form
+#main-form{
+  .up-contact{
+    background-color: $color-bg2;
+    color: $color-text;
+    letter-spacing: 0.1px;
+  }
+
+  #user-form {
+    background-color: $color-bg2;
+    color: $color-text;
+    label{
+      color: $color-text;
+      font-weight: bolder;
+      font-size: 22px;
+      margin: 20px 0 20px 0;
+    }
+
+  }
+}
+
+// contact us - user form
