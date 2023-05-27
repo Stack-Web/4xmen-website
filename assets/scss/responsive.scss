@@ -6,11 +6,13 @@
         padding: 40px 0;
       }
     }
+
     h1 {
       font-size: 24px;
     }
   }
 }
+
 // about-us.html #about-cards
 
 // our-works.html #grid-works
@@ -31,6 +33,7 @@
         }
       }
     }
+
     .sec-bg-img {
       width: 100%;
       margin-bottom: 0;
@@ -38,19 +41,21 @@
     }
   }
 }
+
 // our-works.html #grid-works
 
 // contact-dev.html .awesome-sec
 @media screen and (max-width: 576px) {
   .awesome-sec {
     .row {
-      div{
+      div {
         flex: 0 0 auto;
         width: 50%;
       }
     }
   }
 }
+
 // contact-dev.html .awesome-sec
 
 // footer section #footer
@@ -59,4 +64,21 @@
     font-size: 3.5rem;
   }
 }
+
 // footer section #footer
+
+// blogs.html
+@media ((min-width: 500px) and (max-width:768px)) {
+  .blogs-title {
+    font-size: 70px !important;
+  }
+}
+
+@media ((min-width: 200px) and (max-width:500px)) {
+  .blogs-title {
+    font-size: 40px !important;
+    letter-spacing: -2px;
+  }
+}
+
+// blogs.html

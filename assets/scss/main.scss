@@ -14,6 +14,7 @@
   box-sizing: border-box;
   outline: none;
   list-style: none;
+  scroll-behavior: smooth;
 }
 
 .paragraph {
@@ -44,6 +45,18 @@
 // footer
 @import "footer";
 // footer
+
+// index.html
+@import "index";
+// index.html
+
+// index.html
+@import "blogs";
+// index.html
+
+// index.html
+@import "blog";
+// index.html
 
 // Responsive
 @import 'responsive';
