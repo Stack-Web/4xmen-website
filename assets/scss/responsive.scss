@@ -1,0 +1,62 @@
+// about-us.html #about-cards
+@media screen and (max-width: 768px) {
+  #about-cards {
+    .card-box {
+      .card-item {
+        padding: 40px 0;
+      }
+    }
+    h1 {
+      font-size: 24px;
+    }
+  }
+}
+// about-us.html #about-cards
+
+// our-works.html #grid-works
+@media screen and (max-width: 768px) {
+  #start-call {
+    .sec-lg-head {
+      .ontop {
+        .valign {
+          h1 {
+            letter-spacing: 2px;
+            font-size: 30px;
+
+          }
+
+          span {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+    .sec-bg-img {
+      width: 100%;
+      margin-bottom: 0;
+      height: 250px;
+    }
+  }
+}
+// our-works.html #grid-works
+
+// contact-dev.html .awesome-sec
+@media screen and (max-width: 576px) {
+  .awesome-sec {
+    .row {
+      div{
+        flex: 0 0 auto;
+        width: 50%;
+      }
+    }
+  }
+}
+// contact-dev.html .awesome-sec
+
+// footer section #footer
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+// footer section #footer
