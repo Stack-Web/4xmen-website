@@ -82,3 +82,17 @@
 }
 
 // blogs.html
+
+// index.html
+@media screen and (max-width: 767px) {
+  .line-point {
+    display: none;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .line-point {
+    height: 550px;
+  }
+}
+
+// index.html
