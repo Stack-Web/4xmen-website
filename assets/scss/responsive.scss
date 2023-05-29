@@ -68,13 +68,13 @@
 // footer section #footer
 
 // blogs.html
-@media ((min-width: 500px) and (max-width:768px)) {
+@media screen and (min-width: 500px) and (max-width:768px) {
   .blogs-title {
     font-size: 70px !important;
   }
 }
 
-@media ((min-width: 200px) and (max-width:500px)) {
+@media screen and (min-width: 200px) and (max-width:500px) {
   .blogs-title {
     font-size: 40px !important;
     letter-spacing: -2px;
@@ -91,7 +91,8 @@
 }
 @media screen and (max-width: 1250px) {
   .line-point {
-    height: 550px;
+    overflow-x: visible;
+    height: 320px;
   }
 }
 
