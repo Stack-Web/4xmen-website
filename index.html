@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="node_modules/vazirmatn/Vazirmatn-Variable-font-face.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="node_modules/cobe/dist/index.d.ts">
+    <link rel="stylesheet" href="node_modules/flickity/dist/flickity.min.css">
     <!--   script links -->
+    <script src="node_modules/flickity/dist/flickity.pkgd.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/cobe/dist/index.esm.js"></script>
@@ -39,17 +41,20 @@
                         <a href="our-works.html" class="px-3 navbar-links">
                             نمونه کارها
                         </a>
-                        <a class="px-3 navbar-links">
+                        <a href="blogs.html" class="px-3 navbar-links">
                             مقالات
                         </a>
                         <a href="about-us.html" class="px-3 navbar-links">
                             درباره ما
                         </a>
-                        <a class="px-3 navbar-links">
+                        <a href="connection-us.html" class="px-3 navbar-links">
                             ارتباط با ما
                         </a>
-                        <a class="px-3 navbar-links">
+                        <a href="contact-dev.html" class="px-3 navbar-links">
                             همکاری با ما
+                        </a>
+                        <a href="project-reg.html" class="px-3 navbar-links">
+                            درخواست پروژه
                         </a>
                     </div>
                 </div>
@@ -112,7 +117,7 @@
     <section class="container py-5">
         <div class="row m-0 align-items-center">
             <div class="order-2 order-md-1 col-12 col-md-5 col-lg-6">
-                <img class="" style="width: 100%; height: 100%;" src="assets/img/Code typing-amico.svg"/>
+                <img class="" style="width: 100%; height: 100%;" src="assets/img/index-hero.svg"/>
             </div>
 
             <div class="order-1 order-md-2 col-12 col-md-7 col-lg-6">
@@ -141,7 +146,7 @@
         <div class="container reason2">
             <div>
                 <div class="mx-2">
-                    <p class="secondary-text">چرا تیم XStack?
+                    <p class="secondary-text">چرا تیم xstack ؟
                     </p>
                 </div>
 
@@ -156,7 +161,7 @@
                         <div class="container row m-0 pt-4">
                             <div class="col-6 col-sm-6 items-box">
                                 <div class="items-icon">
-                                    <img src="assets/img/team.svg"/>
+                                    <img src="assets/img/team.svg" alt=""/>
                                 </div>
                                 <p class="items-text">تیم حرفه ای</p>
                                 <p class="items-text2">تیم شامل دیزاینر و دولوپر با چندین سال سابقه کار</p>
@@ -204,8 +209,8 @@
     <section class="suc-pro  ">
         <img src="assets/img/bg-stars-1.png" alt="" style="z-index: -2">
         <div class="container">
-            <div class="row text-light">
-                <div class="suc-serv col-lg-8 col-md-10 col-sm-12 mt-5">
+            <div class="row m-0">
+                <div class="suc-serv col-lg-8 col-md-8 col-sm-11 mt-5">
                     <div class="bg-suc-serv"></div>
                     <h3>پروژه موفق</h3>
                     <p>
@@ -228,7 +233,7 @@
 
                     </p>
                 </div>
-                <div class="col-lg-4 col-md-2 ">
+                <div class="col-lg-4 col-md-4 col-sm-1 overflow-visible">
                     <img class="line-point" src="assets/img/line.svg" alt="">
                 </div>
             </div>
@@ -237,48 +242,48 @@
     <!--      success projects-->
 
     <section class="sec-earth my-5 " style="overflow: hidden">
-        <div class="row">
-            <!--            <div class="col-lg-6 col-md-12 col-sm-12 earth">-->
-            <!--                <canvas-->
-            <!--                        id="cobe"-->
-            <!--                        style="width: 600px; height: 800px"-->
-            <!--                        width="800"-->
-            <!--                        height="800"-->
-            <!--                ></canvas>-->
-            <!--                <script type="module">-->
-            <!--                    import createGlobe from 'https://cdn.skypack.dev/cobe'-->
+        <div class="row m-0">
+                        <div class="col-lg-6 col-md-12 col-sm-12 earth">
+                            <canvas
+                                    id="cobe"
+                                    style="width: 600px; height: 800px"
+                                    width="800"
+                                    height="800"
+                            ></canvas>
+                            <script type="module">
+                                import createGlobe from 'https://cdn.skypack.dev/cobe'
 
-            <!--                    let phi = 0-->
-            <!--                    let canvas = document.getElementById("cobe")-->
+                                let phi = 0
+                                let canvas = document.getElementById("cobe")
 
-            <!--                    const globe = createGlobe(canvas, {-->
-            <!--                        devicePixelRatio: 2,-->
-            <!--                        width: 1500,-->
-            <!--                        height: 1500,-->
-            <!--                        phi: 0,-->
-            <!--                        theta: 0,-->
-            <!--                        dark: 1,-->
-            <!--                        diffuse: 1.2,-->
-            <!--                        scale: 1,-->
-            <!--                        mapSamples: 20000,-->
-            <!--                        mapBrightness: 7,-->
-            <!--                        baseColor: [1, 1, 1],-->
-            <!--                        markerColor: [1, 0.5, 1],-->
-            <!--                        glowColor: [1, 1, 1],-->
-            <!--                        offset: [0, 0],-->
-            <!--                        markers: [-->
-            <!--                            {location: [37.7595, -122.4367], size: 0.03},-->
-            <!--                            {location: [40.7128, -74.006], size: 0.1},-->
-            <!--                        ],-->
-            <!--                        onRender: (state) => {-->
-            <!--                            // Called on every animation frame.-->
-            <!--                            // `state` will be an empty object, return updated params.-->
-            <!--                            state.phi = phi-->
-            <!--                            phi += 0.01-->
-            <!--                        },-->
-            <!--                    })-->
-            <!--                </script>-->
-            <!--            </div>-->
+                                const globe = createGlobe(canvas, {
+                                    devicePixelRatio: 2,
+                                    width: 1500,
+                                    height: 1500,
+                                    phi: 0,
+                                    theta: 0,
+                                    dark: 1,
+                                    diffuse: 1.2,
+                                    scale: 1,
+                                    mapSamples: 20000,
+                                    mapBrightness: 7,
+                                    baseColor: [1, 1, 1],
+                                    markerColor: [1, 0.5, 1],
+                                    glowColor: [1, 1, 1],
+                                    offset: [0, 0],
+                                    markers: [
+                                        {location: [37.7595, -122.4367], size: 0.03},
+                                        {location: [40.7128, -74.006], size: 0.1},
+                                    ],
+                                    onRender: (state) => {
+                                        // Called on every animation frame.
+                                        // `state` will be an empty object, return updated params.
+                                        state.phi = phi
+                                        phi += 0.01
+                                    },
+                                })
+                            </script>
+                        </div>
             <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
                 <div class="sec-earth-title ">
                     <h3>متن دلخواه</h3>
@@ -306,7 +311,7 @@
                         را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
                     </p>
                     <div class="earth-awesome container row m-0 text-center mt-5">
-                        <div class="row">
+                        <div class="row m-0">
                             <div class="col-4">
                                 <i class="fa-brands fa-paypal"></i>
                                 <h5>اتصال جهانی</h5>
@@ -333,12 +338,136 @@
                 <h4>رنگ دلخواه خود را به راحتی شخصی سازی میکنید</h4>
             </div>
             <div class="img-fluid">
-                <div id="preview">
-                    <div id="active"></div>
+                <div>
+                    <div id="preview">
+                        <div id="active"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Marquee Slider -->
+    <section id="marq-slider" class="my-5">
+        <div class="row m-0">
+<div class="marq-title text-center text-light my-5">
+    <h3>پروژه های فعال</h3>
+
+
+</div>
+            <div class="col-12">
+                <div class="b-slider marquee-slider">
+                    <div class="b-slider__slide">
+                        <a href="#" class="b-slider__ref">
+                            <picture class="b-slider__picture">
+                                <img src="assets/img/about/box1.png"
+                                     class="b-slider__img" alt="">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="b-slider__slide">
+                        <a href="#" class="b-slider__ref">
+                            <picture class="b-slider__picture">
+                                <img src="assets/img/about/box2.png"
+                                     class="b-slider__img" alt="">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="b-slider__slide">
+                        <a href="#" class="b-slider__ref">
+                            <picture class="b-slider__picture">
+                                <img src="assets/img/about/box3.png"
+                                     class="b-slider__img" alt="">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="b-slider__slide">
+                        <a href="#" class="b-slider__ref">
+                            <picture class="b-slider__picture">
+                                <img src="assets/img/about/box4.png"
+                                     class="b-slider__img" alt="">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="b-slider__slide">
+                        <a href="#" class="b-slider__ref">
+                            <picture class="b-slider__picture">
+                                <img src="assets/img/about/box5.png"
+                                     class="b-slider__img"
+                                     alt="">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="b-slider__slide">
+                        <a href="#" class="b-slider__ref">
+                            <picture class="b-slider__picture">
+                                <img src="assets/img/about/box6.png"
+                                     class="b-slider__img" alt="">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--     Marquee 2 Slider +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        <div class="row m-0">
+            <div class="col-12 mt-1">
+                <div class="b2-slider marquee2-slider">
+                    <div class="b2-slider__slide">
+                        <a href="#" class="b2-slider__ref">
+                            <picture class="b2-slider__picture">
+                                <img src="assets/img/about/box6.png"
+                                     class="b2-slider__img" alt="">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="b2-slider__slide">
+                        <a href="#" class="b2-slider__ref">
+                            <picture class="b2-slider__picture">
+                                <img src="assets/img/about/box5.png"
+                                     class="b2-slider__img" alt="">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="b2-slider__slide">
+                        <a href="#" class="b2-slider__ref">
+                            <picture class="b2-slider__picture">
+                                <img src="assets/img/about/box4.png"
+                                     class="b2-slider__img" alt="">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="b2-slider__slide">
+                        <a href="#" class="b2-slider__ref">
+                            <picture class="b2-slider__picture">
+                                <img src="assets/img/about/box3.png"
+                                     class="b2-slider__img" alt="">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="b2-slider__slide">
+                        <a href="#" class="b2-slider__ref">
+                            <picture class="b2-slider__picture">
+                                <img src="assets/img/about/box2.png"
+                                     class="b2-slider__img"
+                                     alt="">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="b2-slider__slide">
+                        <a href="#" class="b2-slider__ref">
+                            <picture class="b2-slider__picture">
+                                <img src="assets/img/about/box1.png"
+                                     class="b2-slider__img" alt="">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Marquee Slider Finish -->
 
 </main>
 <!--main-->
@@ -348,7 +477,7 @@
     <div class="container-fluid footer-box">
         <div class="container">
             <footer class="py-5">
-                <div class="row">
+                <div class="row m-0">
                     <div class="col-6 col-md-2 mb-3">
                         <h5>درباره تیم 4xmen</h5>
                         <p style="text-align: justify; text-justify: inter-word; word-spacing: 1px; line-height: 1.7">
@@ -442,6 +571,7 @@
 </footer>
 <!--footer-->
 
+<script src="assets/js/marquee.js"></script>
 <script src="assets/js/colorize.js"></script>
 <script src="assets/js/index.js"></script>
 </body>
