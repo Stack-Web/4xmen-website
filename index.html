@@ -30,7 +30,7 @@
         <div class="container">
             <div class="py-3 header-items">
                 <div class="d-flex align-items-center">
-                    <img src="assets/img/4xmen-logo.svg" style="width: 60px;"/>
+                    <img src="assets/img/4xmen-logo.svg" style="width: 60px;" alt=""/>
 
                     <div class="px-3 d-none d-md-flex">
                         <a href="index.html" class="px-3 navbar-links">
@@ -59,8 +59,8 @@
                         <p>SIGN IN</p>
                     </button>
 
-                    <button class=" d-flex align-items-center d-lg-none mr-5 p-0">
-                        <i class="fa-solid fa-right-to-bracket header-icon"></i>
+                    <button class=" d-flex align-items-center d-lg-none mr-5 p-0 ">
+                        <i class="fa-solid fa-right-to-bracket header-icon "></i>
                     </button>
 
                     <!-- <div id="menu-container"
@@ -190,7 +190,7 @@
 
 
                     <div class="col-12 col-lg-6 d-flex justify-content-center">
-                            <img class="team-goal w-100 h-100" src="assets/img/Shared-goals-amico.svg" alt=""/>
+                        <img class="team-goal w-100 h-100" src="assets/img/Shared-goals-amico.svg" alt=""/>
                     </div>
                 </div>
 
@@ -202,21 +202,28 @@
 
     <!--      success projects-->
     <section class="suc-pro  ">
-        <img src="assets/img/bg-stars-1.png" alt="">
+        <img src="assets/img/bg-stars-1.png" alt="" style="z-index: -2">
         <div class="container">
             <div class="row text-light">
                 <div class="suc-serv col-lg-8 col-md-10 col-sm-12 mt-5">
                     <div class="bg-suc-serv"></div>
                     <h3>پروژه موفق</h3>
                     <p>
-                        لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و
-                        طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و
-                        ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی
-                        نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی و
-                        بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده
-                        بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر گرفته
+                        لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ،
+                        صفحه‌آرایی و
+                        طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه
+                        و
+                        ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر
+                        چگونگی
+                        نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی
+                        و
+                        بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی
+                        شده
+                        بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر
+                        گرفته
                         شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در
-                        همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود
+                        همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه گرافیکی
+                        خود
                         را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
 
                     </p>
@@ -229,50 +236,107 @@
     </section>
     <!--      success projects-->
 
-    <section class="sec-earth my-5 ">
+    <section class="sec-earth my-5 " style="overflow: hidden">
         <div class="row">
-            <div class="col-8 earth">
-                <canvas
-                        id="cobe"
-                        style="width: 1000px; height: 1000px"
-                        width="800"
-                        height="800"
-                ></canvas>
-                <script type="module">
-                    import createGlobe from 'https://cdn.skypack.dev/cobe'
+            <!--            <div class="col-lg-6 col-md-12 col-sm-12 earth">-->
+            <!--                <canvas-->
+            <!--                        id="cobe"-->
+            <!--                        style="width: 600px; height: 800px"-->
+            <!--                        width="800"-->
+            <!--                        height="800"-->
+            <!--                ></canvas>-->
+            <!--                <script type="module">-->
+            <!--                    import createGlobe from 'https://cdn.skypack.dev/cobe'-->
 
-                    let phi = 0
-                    let canvas = document.getElementById("cobe")
+            <!--                    let phi = 0-->
+            <!--                    let canvas = document.getElementById("cobe")-->
 
-                    const globe = createGlobe(canvas, {
-                        devicePixelRatio: 2,
-                        width: 1800,
-                        height: 1800,
-                        phi: 0,
-                        theta: 0,
-                        dark: 1,
-                        diffuse: 1.2,
-                        scale: 1,
-                        mapSamples: 20000,
-                        mapBrightness: 7,
-                        baseColor: [1, 1, 1],
-                        markerColor: [1, 0.5, 1],
-                        glowColor: [1, 1, 1],
-                        offset: [0, 0],
-                        markers: [
-                            { location: [37.7595, -122.4367], size: 0.03 },
-                            { location: [40.7128, -74.006], size: 0.1 },
-                        ],
-                        onRender: (state) => {
-                            // Called on every animation frame.
-                            // `state` will be an empty object, return updated params.
-                            state.phi = phi
-                            phi += 0.01
-                        },
-                    })
-                </script>
+            <!--                    const globe = createGlobe(canvas, {-->
+            <!--                        devicePixelRatio: 2,-->
+            <!--                        width: 1500,-->
+            <!--                        height: 1500,-->
+            <!--                        phi: 0,-->
+            <!--                        theta: 0,-->
+            <!--                        dark: 1,-->
+            <!--                        diffuse: 1.2,-->
+            <!--                        scale: 1,-->
+            <!--                        mapSamples: 20000,-->
+            <!--                        mapBrightness: 7,-->
+            <!--                        baseColor: [1, 1, 1],-->
+            <!--                        markerColor: [1, 0.5, 1],-->
+            <!--                        glowColor: [1, 1, 1],-->
+            <!--                        offset: [0, 0],-->
+            <!--                        markers: [-->
+            <!--                            {location: [37.7595, -122.4367], size: 0.03},-->
+            <!--                            {location: [40.7128, -74.006], size: 0.1},-->
+            <!--                        ],-->
+            <!--                        onRender: (state) => {-->
+            <!--                            // Called on every animation frame.-->
+            <!--                            // `state` will be an empty object, return updated params.-->
+            <!--                            state.phi = phi-->
+            <!--                            phi += 0.01-->
+            <!--                        },-->
+            <!--                    })-->
+            <!--                </script>-->
+            <!--            </div>-->
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
+                <div class="sec-earth-title ">
+                    <h3>متن دلخواه</h3>
+                    <p>
+                        لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ،
+                        صفحه‌آرایی و
+                        طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن
+                        صفحه
+                        و
+                        ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر
+                        چگونگی
+                        نوع و اندازه فونت و ظاهر متن باشد. معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های
+                        آزمایشی
+                        و
+                        بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه
+                        بندی
+                        شده
+                        بعد از اینکه متن در آن قرار گیرد چگونه به نظر می‌رسد و قلم‌ها و اندازه‌بندی‌ها چگونه در نظر
+                        گرفته
+                        شده‌است. از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند
+                        و در
+                        همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه
+                        گرافیکی
+                        خود
+                        را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+                    </p>
+                    <div class="earth-awesome container row m-0 text-center mt-5">
+                        <div class="row">
+                            <div class="col-4">
+                                <i class="fa-brands fa-paypal"></i>
+                                <h5>اتصال جهانی</h5>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa-solid fa-globe"></i>
+                                <h5>اتصال ایرانی</h5>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa-solid fa-cloud"></i>
+                                <h5>اتصال هوایی</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-4"></div>
+        </div>
+    </section>
+
+    <section class="colorize container my-5">
+        <div class="col-12">
+            <div class="my-4 text-center">
+                <h3>تم روشن و تیره</h3>
+                <h4>رنگ دلخواه خود را به راحتی شخصی سازی میکنید</h4>
+            </div>
+            <div class="img-fluid">
+                <div id="preview">
+                    <div id="active"></div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -378,6 +442,7 @@
 </footer>
 <!--footer-->
 
+<script src="assets/js/colorize.js"></script>
 <script src="assets/js/index.js"></script>
 </body>
 
