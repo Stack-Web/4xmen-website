@@ -94,6 +94,8 @@ header {
 .header-icon {
   color: $color-purple;
   font-size: 23px;
+  padding: 2px;
+  background-color: $color-bg2;
 }
 
 /* hamburger menu */
@@ -195,7 +197,7 @@ header {
 }
 
 .main-text {
-  color: $color-orange;
+  color:$color-purple;
   font-size: 20px;
   padding-top: 15px;
   max-width: 600px;
@@ -208,7 +210,7 @@ header {
   width: 10em;
   position: relative;
   height: 3.5em;
-  border: 3px ridge $color-orange;
+  border: 3px ridge $color-purple;
   outline: none;
   background-color: transparent;
   color: white;
@@ -248,7 +250,7 @@ header {
 }
 
 .neon-btn:hover {
-  box-shadow: inset 0px 0px 25px $color-orange;
+  box-shadow: inset 0px 0px 25px $color-purple;
 }
 
 .reason-bg {
@@ -359,6 +361,8 @@ header {
       text-align: justify;
     }
   }
+  .line-point{
+  }
 }
 
 // success projects
@@ -419,6 +423,8 @@ header {
     position: relative;
     background-repeat: no-repeat;
     max-width: 100%;
+    transition: 1s;
+    cursor: col-resize;
 
   }
   #preview {
@@ -433,10 +439,108 @@ header {
       width: 50%;
       max-width: 100%;
       background-repeat: no-repeat;
-
-
     }
   }
 }
 // jq dark light
 
+// Marquee Slider
+#marq-slider {
+  width: 100%;
+  height: 355px;
+  background-color: $color-bg1;
+  .marq-title{
+    h3{
+      font-weight: bolder;
+
+    }
+    sup{
+      margin-left: 160px;
+    }
+  }
+
+img{
+  width: 128px;
+  height: auto;
+}
+
+  .marq-img {
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      float: right;
+      height: 355px;
+      width: 100%;
+    }
+  }
+
+  .b-slider {
+    background-color: $color-bg2;
+    overflow-x: hidden;
+    min-width: 100%;
+    outline: 0;
+
+    &:hover {
+      .b-slider__img {
+        filter: grayscale(1) contrast(0) blur(1px);
+      }
+    }
+
+    &__slide {
+      text-align: center;
+      width: 30rem;
+      height: 8rem;
+      display: flex;
+      align-items: center;
+    }
+
+    &__ref {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover .b-slider__img {
+        filter: unset;
+      }
+    }
+  }
+
+  // Marquee Slider Finish
+  // Marquee Slider
+  .b2-slider {
+    background-color: $color-bg2;
+    min-width: 100%;
+    outline: 0;
+
+    &:hover {
+      .b2-slider__img {
+        filter: grayscale(1) contrast(0) blur(1px);
+      }
+    }
+
+    &__slide {
+      text-align: center;
+      width: 30rem;
+      height: 8rem;
+      display: flex;
+      align-items: center;
+    }
+
+    &__ref {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover .b2-slider__img {
+        filter: unset;
+      }
+    }
+  }
+}
+
+// Marquee Slider Finish
