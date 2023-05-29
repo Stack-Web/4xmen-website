@@ -4,6 +4,7 @@
     "beercss": "^3.2.4",
     "bootstrap": "^5.2.3",
     "cobe": "^0.6.3",
+    "flickity": "^2.2.1",
     "jquery": "^3.6.4",
     "material-dynamic-colors": "^0.1.7",
     "vazirmatn": "^33.0.3"
