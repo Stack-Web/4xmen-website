@@ -1,14 +1,41 @@
 // contact dev
-.awesome-sec{
+.awesome-sec {
+  .i-box {
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+
+    opacity: 60%;
+
+  }
+  .i-awesome {
+    display: block;
+    color: white;
+
+  }
   i {
-    font-size: 20px;
+    font-size: 31px;
     padding: 35px;
   }
-  h4{
+
+  h4 {
     padding: 0;
   }
-  h5{
 
+  h5 {
+    padding: 9px;
+    text-align: justify;
+  }
+}
+
+#accept-dev {
+  .para {
+    padding-top: 25px;
+    color: $color-text;
+    font-weight: lighter;
+    line-height: 1.7;
+    text-align: justify;
+    font-size: 19px;
   }
 }
 // contact dev
