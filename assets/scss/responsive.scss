@@ -116,3 +116,28 @@
   }
 }
 // colorize section
+
+// connection-us
+@media screen and (max-width: 768px) {
+  #world{
+    .world-bg{
+      img{
+        display: block;
+        max-width: 100%;
+        height: 330px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  #world{
+    .world-bg{
+      img{
+        display: block;
+        max-width: 100%;
+        height: 265px;
+      }
+    }
+  }
+}
+// connection-us
