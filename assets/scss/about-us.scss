@@ -16,7 +16,7 @@
     background: -webkit-linear-gradient(right, #4B39EF 0%, #ddd 80%, #31BFAE 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 80px;
+    font-size: $fs-pc-xxxl;
   }
 }
 
@@ -31,7 +31,7 @@
       border: 1px solid $color-gray;
       padding: 3px 40px 3px 40px;
       border-radius: 50px;
-      font-size: 15px;
+      font-size: $fs-mob-sm;
       letter-spacing: 2px;
       font-weight: bolder;
       color: $color-text;
@@ -39,7 +39,7 @@
 
     h3 {
       font-weight: bolder;
-      font-size: 80px;
+      font-size: $fs-pc-xxxl;
     }
   }
 
@@ -59,12 +59,12 @@
     color: white;
 
     h3 {
-      font-size: 30px;
+      font-size: $fs-pc-lg;
       font-weight: lighter;
     }
 
     p {
-      font-size: 16px;
+      font-size: $fs-mob-lg;
       font-weight: lighter;
       text-align: justify;
       padding-top: 37px;
@@ -145,7 +145,7 @@
       background: -webkit-linear-gradient(right, $color-purple 0%, $color-orange 60%, $color-green 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      font-size: 60px;
+      font-size: $fs-pc-xxxl;
     }
 
     @keyframes radar81 {
@@ -229,7 +229,7 @@
 
   h1 {
     font-weight: bolder;
-    font-size: 45px;
+    font-size: $fs-pc-xxl;
     color: $color-text;
   }
 
@@ -300,13 +300,13 @@
         align-items: center;
 
         h1 {
-          font-size: 52px;
+          font-size: $fs-pc-xxxl-mob;
           font-weight: bolder;
           letter-spacing: 2px;
           color: $color-text;
 
           span {
-            font-size: 30px;
+            font-size: $fs-pc-xxl;
             font-weight: bold;
             letter-spacing: 0;
             color: gray;

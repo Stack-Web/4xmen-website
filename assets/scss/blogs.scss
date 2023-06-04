@@ -1,13 +1,13 @@
 // blogs styles
 .blogs-title {
-  font-size: 90px;
+  font-size: $fs-pc-xxxl;
   max-width: 250px;
   letter-spacing: -5px;
   font-weight: 700;
   color: $color-text;
 }
 .color-title {
-  font-size: 80px;
+  font-size: $fs-pc-xxxl;
   font-weight: 800;
   background: -webkit-linear-gradient(right, #4B39EF 0%, #ddd 80%, #31BFAE 100%);
   -webkit-background-clip: text;
@@ -17,7 +17,7 @@
   max-width: 290px;
 }
 .blogs-small-title {
-  font-size: 18px;
+  font-size: $fs-mob-xl;
   font-weight: 500;
   color: $color-text;
 }
@@ -33,7 +33,7 @@
 }
 .blogs-small-des {
   color: $color-gray;
-  font-size: 15px;
+  font-size: $fs-mob-lg;
 }
 .btn-gray {
   background-color: $color-text;
@@ -59,7 +59,7 @@
 }
 .medium-title {
   color: $color-text;
-  font-size: 36px;
+  font-size: $fs-pc-xl;
   font-weight: 600;
 }
 .writer-img {
@@ -68,11 +68,11 @@
   border: 1px solid #D9D9D9;
 }
 .blogs-small-text {
-  font-size: 16px;
+  font-size: $fs-mob-lg;
   color: $color-gray;
 }
 .blogs-medium-des {
-  font-size: 18px;
+  font-size: $fs-mob-lg;
   color: $color-text;
 }
 .blogs-img {

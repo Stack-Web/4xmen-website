@@ -1,6 +1,6 @@
 // single blog
 .color-title-2 {
-  font-size: 90px;
+  font-size: $fs-pc-xxxl;
   font-weight: 800;
   background: -webkit-linear-gradient(right, #EE8B60 0%, #ddd 60%, #31BFAE 100%);
   -webkit-background-clip: text;
@@ -28,7 +28,7 @@
   top: 80px;
 }
 .blogs-complete-description {
-  font-size: 18px;
+  font-size: $fs-mob-xl;
   color: $color-text;
   line-height: 2.5;
   text-align: justify;

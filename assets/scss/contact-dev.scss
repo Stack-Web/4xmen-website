@@ -14,7 +14,7 @@
 
   }
   i {
-    font-size: 31px;
+    font-size: $fs-pc-lg;
     padding: 35px;
   }
 
@@ -35,7 +35,7 @@
     font-weight: lighter;
     line-height: 1.7;
     text-align: justify;
-    font-size: 19px;
+    font-size: $fs-tab-md;
   }
 }
 // contact dev

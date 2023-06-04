@@ -30,7 +30,7 @@ input:-webkit-autofill:active {
     }
 
     .bd-placeholder-img {
-      font-size: 1.125rem;
+      font-size: $fs-tab-xl;
       text-anchor: middle;
       -webkit-user-select: none;
       -moz-user-select: none;
@@ -90,7 +90,7 @@ input:-webkit-autofill:active {
       max-width: 300px;
       padding: 0 1rem;
       color: #fff;
-      font-size: 15px;
+      font-size: $fs-mob-lg;
       border: 1px solid $color-green;
       border-radius: 6px;
       background-color: transparent;
@@ -115,7 +115,7 @@ input:-webkit-autofill:active {
       // background: linear-gradient(60deg, $color-purple 22%, $color-orange 55%, $color-purple 73%);
       background: $color-green;
       color: black;
-      font-size: 15px;
+      font-size: $fs-mob-lg;
       cursor: pointer;
       transition: background-color .9s ease-in-out;
 
@@ -153,7 +153,7 @@ input:-webkit-autofill:active {
 	border-radius: 8px;
 	background: none;
 	padding: 1rem;
-	font-size: 1rem;
+	font-size: $fs-mob-md;
 	color: #f5f5f5;
 	transition: border 150ms cubic-bezier(0.4,0,0.2,1);
 	&:focus {

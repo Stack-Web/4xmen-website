@@ -56,7 +56,7 @@
   outline: none;
   border: none;
   background-color: inherit;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
   padding: 3px 8px;
   position: relative;
@@ -167,7 +167,7 @@
 #main-form #user-form label {
   color: #ddd;
   font-weight: bolder;
-  font-size: 22px;
+  font-size: 23px;
   margin: 20px 0 20px 0;
 }
 
@@ -182,7 +182,7 @@
   color: white;
 }
 .awesome-sec i {
-  font-size: 31px;
+  font-size: 32px;
   padding: 35px;
 }
 .awesome-sec h4 {
@@ -199,7 +199,7 @@
   font-weight: lighter;
   line-height: 1.7;
   text-align: justify;
-  font-size: 19px;
+  font-size: 20px;
 }
 
 #our-story .img {
@@ -216,7 +216,7 @@
   background: -webkit-linear-gradient(right, #4B39EF 0%, #ddd 80%, #31BFAE 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 80px;
+  font-size: 75px;
 }
 
 #our-service {
@@ -227,14 +227,14 @@
   border: 1px solid #909090;
   padding: 3px 40px 3px 40px;
   border-radius: 50px;
-  font-size: 15px;
+  font-size: 12px;
   letter-spacing: 2px;
   font-weight: bolder;
   color: #ddd;
 }
 #our-service .service-box h3 {
   font-weight: bolder;
-  font-size: 80px;
+  font-size: 75px;
 }
 #our-service .service-box2 {
   display: flex;
@@ -251,7 +251,7 @@
   color: white;
 }
 #our-service .serv-item h3 {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: lighter;
 }
 #our-service .serv-item p {
@@ -321,7 +321,7 @@
   background: -webkit-linear-gradient(right, #4B39EF 0%, #EE8B60 60%, #31BFAE 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 60px;
+  font-size: 75px;
 }
 @keyframes radar81 {
   0% {
@@ -452,13 +452,13 @@
   align-items: center;
 }
 #start-call .sec-lg-head .ontop .valign h1 {
-  font-size: 52px;
+  font-size: 55px;
   font-weight: bolder;
   letter-spacing: 2px;
   color: #ddd;
 }
 #start-call .sec-lg-head .ontop .valign h1 span {
-  font-size: 30px;
+  font-size: 45px;
   font-weight: bold;
   letter-spacing: 0;
   color: gray;
@@ -491,7 +491,7 @@ input:-webkit-autofill:active {
   color: #909090;
 }
 .footer-box footer .bd-placeholder-img {
-  font-size: 1.125rem;
+  font-size: 24px;
   text-anchor: middle;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -542,7 +542,7 @@ input:-webkit-autofill:active {
   max-width: 300px;
   padding: 0 1rem;
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   border: 1px solid #31BFAE;
   border-radius: 6px;
   background-color: transparent;
@@ -562,7 +562,7 @@ input:-webkit-autofill:active {
   border-radius: 6px;
   background: #31BFAE;
   color: black;
-  font-size: 15px;
+  font-size: 16px;
   cursor: pointer;
   transition: background-color 0.9s ease-in-out;
 }
@@ -588,7 +588,7 @@ input:-webkit-autofill:active {
   border-radius: 8px;
   background: none;
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 14px;
   color: #f5f5f5;
   transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -798,7 +798,7 @@ header {
 }
 
 .menu-link:hover {
-  font-size: 15px;
+  font-size: 16px;
   color: #909090;
 }
 
@@ -810,7 +810,7 @@ header {
 /* main index, hero section */
 .main-title {
   color: #ddd;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
 }
 
@@ -888,14 +888,14 @@ header {
 
 .secondary-text {
   color: #ddd;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 500;
   max-width: 120px;
 }
 
 .reason-text {
   color: #909090;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 600;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -909,7 +909,7 @@ header {
 
 .items-text {
   color: #ddd;
-  font-size: 17px;
+  font-size: 16px;
   padding: 10px 0;
 }
 
@@ -1113,7 +1113,7 @@ header {
 }
 
 .blogs-title {
-  font-size: 90px;
+  font-size: 75px;
   max-width: 250px;
   letter-spacing: -5px;
   font-weight: 700;
@@ -1121,7 +1121,7 @@ header {
 }
 
 .color-title {
-  font-size: 80px;
+  font-size: 75px;
   font-weight: 800;
   background: -webkit-linear-gradient(right, #4B39EF 0%, #ddd 80%, #31BFAE 100%);
   -webkit-background-clip: text;
@@ -1151,7 +1151,7 @@ header {
 
 .blogs-small-des {
   color: #909090;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .btn-gray {
@@ -1181,7 +1181,7 @@ header {
 
 .medium-title {
   color: #ddd;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 600;
 }
 
@@ -1197,7 +1197,7 @@ header {
 }
 
 .blogs-medium-des {
-  font-size: 18px;
+  font-size: 16px;
   color: #ddd;
 }
 
@@ -1216,7 +1216,7 @@ header {
 }
 
 .color-title-2 {
-  font-size: 90px;
+  font-size: 75px;
   font-weight: 800;
   background: -webkit-linear-gradient(right, #EE8B60 0%, #ddd 60%, #31BFAE 100%);
   -webkit-background-clip: text;
@@ -1328,7 +1328,7 @@ header {
   background-color: #1D2429;
   border: none;
   padding: 0.5rem;
-  font-size: 1rem;
+  font-size: 16px;
   width: 100%;
   border-radius: 1rem;
   color: #ddd;
@@ -1343,7 +1343,7 @@ header {
   background-color: #1D2429;
   border: none;
   padding: 0.5rem;
-  font-size: 1rem;
+  font-size: 16px;
   width: 100%;
   height: 98px;
   border-radius: 1rem;

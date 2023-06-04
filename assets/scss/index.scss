@@ -39,7 +39,7 @@ header {
   text-decoration: none;
   color: $color-text;
   font-weight: 500;
-  font-size: 14px;
+  font-size: $fs-mob-md;
   position: relative;
   cursor: pointer;
   transition: all ease-in-out 0.4s;
@@ -88,12 +88,12 @@ header {
   color: $color-text;
   border-radius: 8px;
   padding: 6px 15px;
-  font-size: 14px;
+  font-size: $fs-mob-md;
 }
 
 .header-icon {
   color: $color-purple;
-  font-size: 23px;
+  font-size: $fs-pc-sm;
   padding: 2px;
   background-color: $color-bg2;
 }
@@ -172,12 +172,12 @@ header {
   color: $color-text;
   text-decoration: none;
   text-align: center;
-  font-size: 14px;
+  font-size: $fs-mob-md;
   transition: all ease-in-out 0.3s;
 }
 
 .menu-link:hover {
-  font-size: 15px;
+  font-size: $fs-mob-lg;
   color: #909090;
 }
 
@@ -192,13 +192,13 @@ header {
 
 .main-title {
   color: $color-text;
-  font-size: 40px;
+  font-size: $fs-pc-xxl;
   font-weight: 700;
 }
 
 .main-text {
   color:$color-purple;
-  font-size: 20px;
+  font-size: $fs-tab-md;
   padding-top: 15px;
   max-width: 600px;
   line-height: 1.8;
@@ -216,7 +216,7 @@ header {
   color: white;
   transition: 1s;
   border-radius: 0.3em;
-  font-size: 16px;
+  font-size: $fs-mob-lg;
   font-weight: bold;
 }
 
@@ -271,14 +271,14 @@ header {
 
 .secondary-text {
   color: $color-text;
-  font-size: 17px;
+  font-size: $fs-mob-xl;
   font-weight: 500;
   max-width: 120px;
 }
 
 .reason-text {
   color: $color-gray;
-  font-size: 30px;
+  font-size: $fs-pc-lg;
   font-weight: 600;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -286,13 +286,13 @@ header {
 
 .reason-text2 {
   color: $color-orange;
-  font-size: 18px;
+  font-size: $fs-mob-xl;
   /* line-height: 1.7; */
 }
 
 .items-text {
   color: $color-text;
-  font-size: 17px;
+  font-size: $fs-mob-lg;
   padding: 10px 0;
 }
 
@@ -333,7 +333,7 @@ header {
 
     h3 {
       padding: 15px;
-      font-size: 45px;
+      font-size: $fs-pc-xxl;
       font-weight: bolder;
       background: -webkit-linear-gradient(right, #4B39EF 0%, #ddd 80%, #31BFAE 100%);
       -webkit-background-clip: text;
@@ -374,7 +374,7 @@ header {
     .earth-awesome {
     i{
       color: $color-text;
-      font-size: 40px;
+      font-size: $fs-pc-xl;
     }
       h5{
         color: $color-text;
@@ -385,7 +385,7 @@ header {
     h3 {
       padding: 5px;
       margin: 0;
-      font-size: 45px;
+      font-size: $fs-pc-xxl;
       font-weight: bolder;
       background: -webkit-linear-gradient(right, #4B39EF 0%, #ddd 80%, #31BFAE 100%);
       -webkit-background-clip: text;
@@ -408,7 +408,7 @@ header {
   border: 1px solid;
   border-radius: 10px;
   h3{
-    font-size: 45px;
+    font-size: $fs-pc-xxl;
     color: $color-text;
   }
   h4{
