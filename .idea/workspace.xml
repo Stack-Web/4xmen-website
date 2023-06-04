@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9d423ac-be33-42ef-a732-add85887f8d0" name="Changes" comment="Add fonts.scss New font">
+    <list default="true" id="971b24c2-39ca-44f2-b9e1-4a61ac2f0949" name="Default Changelist" comment="added watch command">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/about-us.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/blogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/blogs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/contact-dev.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/contact-dev.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/contact-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/contact-us.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_about-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/blogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_blogs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/contact-dev.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_contact-dev.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/contact-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_contact-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/our-works.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_our-works.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/project-reg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_project-reg.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_responsive.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,19 +28,62 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="o3z8x0am" />
   </component>
+  <component name="ProjectId" id="2QkqhzIdJIE5bUhLZ7ecuBSZQ5c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.watch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="Add fonts.scss New font">
-      <created>1685900766741</created>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="971b24c2-39ca-44f2-b9e1-4a61ac2f0949" name="Default Changelist" comment="" />
+      <created>1685908049988</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685908049988</updated>
+      <workItem from="1685908051205" duration="744000" />
+    </task>
+    <task id="LOCAL-00001" summary="added watch command">
+      <created>1685908687141</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1685900766741</updated>
+      <updated>1685908687141</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -50,7 +97,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add fonts.scss New font" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add fonts.scss New font" />
+    <MESSAGE value="added watch command" />
+    <option name="LAST_COMMIT_MESSAGE" value="added watch command" />
   </component>
 </project>
