@@ -76,15 +76,28 @@
                 تلفن خود عضو خبرنامه ما شوید و
                 از اخبار و آفر های ما با خبر
                 شوید . </p>
-              <div class="input-group" dir="rtl">
+              <div class="input-group d-none d-sm-flex" dir="rtl">
                 <input type="email" class="input" id="Email" name="Email" placeholder="example@email.com" autocomplete="off">
-                <input class="button--submit" value="Subscribe" type="submit">
+                <input class="button--submit" value="عضویت" type="submit">
               </div>
+
+              <div class="d-sm-none d-flex flex-column align-items-center ">
+                <div class="input-group2">
+                  <input required="" type="text" name="text" autocomplete="off" class="input2">
+                  <label class="user-label">ایمیل</label>
+                </div>
+                <div class="mt-3">
+                  <button class="header-btn btn-primary2">
+                    <p>عضویت</p>
+                  </button>
+                </div>
+              </div>
+
             </form>
           </div>
         </div>
 
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <div class="d-flex flex-column flex-sm-row justify-content-between pt-4 mt-4 border-top">
           <div class="copyright-text">
             <p><img src="assets/img/4xmen-logo.svg" width="40px" alt="">تمامی حقوق
               این سایت متعلق به تیم <a href="#">4xmen</a> می باشد.

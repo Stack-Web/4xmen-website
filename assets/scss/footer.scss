@@ -1,11 +1,19 @@
 // footer
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: $color-text !important;
+}
 .footer-box {
   //border-top: 2px solid $color-gray;
   background: $color-bg1;
   color: $color-text;
 
   h5 {
-    color: $color-purple;
+    color: $color-gray;
   }
 
   footer {
@@ -83,8 +91,8 @@
       padding: 0 1rem;
       color: #fff;
       font-size: 15px;
-      border: 1px solid $color-purple;
-      border-radius: 6px 0 0 6px;
+      border: 1px solid $color-green;
+      border-radius: 6px;
       background-color: transparent;
 
       &:focus {
@@ -102,17 +110,18 @@
       min-height: 50px;
       padding: .5em 1em;
       border: none;
-      border-radius: 0 6px 6px 0;
-      background: rgb(138, 137, 137);
-      background: linear-gradient(60deg, $color-purple 22%, $color-orange 55%, $color-purple 73%);
+      border-radius: 6px;
+      // background: rgb(138, 137, 137);
+      // background: linear-gradient(60deg, $color-purple 22%, $color-orange 55%, $color-purple 73%);
+      background: $color-green;
       color: black;
       font-size: 15px;
       cursor: pointer;
       transition: background-color .9s ease-in-out;
 
-      &:hover {
-        background: linear-gradient(60deg, $color-purple 26%, $color-orange 58%, $color-purple 77%);
-      }
+      // &:hover {
+      //   background: linear-gradient(60deg, $color-purple 26%, $color-orange 58%, $color-purple 77%);
+      // }
     }
 
     .copyright-text {
@@ -125,6 +134,7 @@
     .list-unstyled {
       i {
         transition: 100ms;
+        color: $color-green;
 
         &:hover {
           transform: scale(135%);
@@ -133,5 +143,55 @@
     }
   }
 }
+
+.input-group2 {
+	position: relative;
+  direction: ltr;
+}
+.input2 {
+	border: solid 1.5px #9e9e9e;
+	border-radius: 8px;
+	background: none;
+	padding: 1rem;
+	font-size: 1rem;
+	color: #f5f5f5;
+	transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+	&:focus {
+		outline: none;
+		border: 1px solid $color-gray;
+		~ {
+			label {
+				transform: translateY(-50%) scale(0.8);
+				background-color: transparent;
+				padding: 0 .2em;
+				color: $color-green;
+        font-weight: 500;
+			}
+		}
+	}
+}
+.user-label {
+	position: absolute;
+	left: 15px;
+	color: #e8e8e8;
+	pointer-events: none;
+	transform: translateY(1rem);
+	transition: 150ms cubic-bezier(0.4,0,0.2,1);
+}
+input {
+	&:valid {
+		outline: none;
+		border: 1.5px solid #1a73e8;
+		~ {
+			label {
+				transform: translateY(-50%) scale(0.8);
+				background-color: #212121;
+				padding: 0 .2em;
+				color: #2196f3;
+			}
+		}
+	}
+}
+
 
 // footer
