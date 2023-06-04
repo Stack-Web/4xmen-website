@@ -30,6 +30,30 @@
   font-size: 19px;
 }
 
+body{
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $color-gray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $color-xmen;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 // our-works
 @import "our-works";
 // our-works
