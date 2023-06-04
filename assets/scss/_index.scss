@@ -197,7 +197,7 @@ header {
 }
 
 .main-text {
-  color:$color-purple;
+  color: $color-purple;
   font-size: $fs-tab-md;
   padding-top: 15px;
   max-width: 600px;
@@ -361,7 +361,8 @@ header {
       text-align: justify;
     }
   }
-  .line-point{
+
+  .line-point {
   }
 }
 
@@ -371,17 +372,20 @@ header {
 .sec-earth {
   .sec-earth-title {
     padding: 0 90px 0 90px;
+
     .earth-awesome {
-    i{
-      color: $color-text;
-      font-size: $fs-pc-xl;
-    }
-      h5{
+      i {
+        color: $color-text;
+        font-size: $fs-pc-xl;
+      }
+
+      h5 {
         color: $color-text;
         padding-top: 8px;
       }
 
     }
+
     h3 {
       padding: 5px;
       margin: 0;
@@ -404,30 +408,50 @@ header {
 // earth title box
 
 // jq dark light
-.colorize{
+.colorize {
   border: 1px solid;
   border-radius: 10px;
-  h3{
+
+  h3 {
     font-size: $fs-pc-xxl;
     color: $color-text;
   }
-  h4{
+
+  h4 {
     background: -webkit-linear-gradient(right, #4B39EF 0%, #ddd 80%, #31BFAE 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  #preview{
+
+  #preview {
     background-image: url("../img/light.jpg");
     width: 100%;
-    height: 710px;
+    height: 614px;
     position: relative;
     background-repeat: no-repeat;
+    background-size: auto 100%;
     max-width: 100%;
     transition: 1s;
-    cursor: col-resize;
 
   }
+
   #preview {
+    #preview-handle {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background: $color-xmen;
+      color: white;
+      width: 75px;
+      height: 75px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      cursor: col-resize;
+    }
+
     #active {
       background-image: url("../img/dark.jpg");
       position: absolute;
@@ -439,9 +463,12 @@ header {
       width: 50%;
       max-width: 100%;
       background-repeat: no-repeat;
+      background-size: auto 100%;
+      border-right: 1px dotted rgba($color-xmen,.2);
     }
   }
 }
+
 // jq dark light
 
 // Marquee Slider
@@ -449,20 +476,22 @@ header {
   width: 100%;
   height: 355px;
   background-color: $color-bg1;
-  .marq-title{
-    h3{
+
+  .marq-title {
+    h3 {
       font-weight: bolder;
 
     }
-    sup{
+
+    sup {
       margin-left: 160px;
     }
   }
 
-img{
-  width: 128px;
-  height: auto;
-}
+  img {
+    width: 128px;
+    height: auto;
+  }
 
   .marq-img {
     overflow: hidden;

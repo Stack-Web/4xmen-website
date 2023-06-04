@@ -1,7 +1,25 @@
 import createGlobe from 'https://cdn.skypack.dev/cobe'
 
-let phi = 0
+let phi = 0;
+let theta = 0;
+let isUp = false;
 let canvas = document.getElementById("cobe")
+
+let stopGlobe = false;
+
+canvas.addEventListener('mouseenter', function () {
+    stopGlobe = true;
+});
+canvas.addEventListener('mousemove', function (e) {
+    if (e.target.offsetHeight / 2 > e.clientY) {
+        isUp = false;
+    } else {
+        isUp = true;
+    }
+});
+canvas.addEventListener('mouseleave', function () {
+    stopGlobe = false;
+});
 
 const globe = createGlobe(canvas, {
     devicePixelRatio: 2,
@@ -26,6 +44,17 @@ const globe = createGlobe(canvas, {
         // Called on every animation frame.
         // `state` will be an empty object, return updated params.
         state.phi = phi
-        phi += 0.01
+        if (!stopGlobe) {
+            phi += 0.0035
+        } else {
+            phi -= 0.0035
+            state.theta = theta;
+            if (isUp){
+                theta += 0.0035
+            }else{
+                theta -= 0.0035
+            }
+
+        }
     },
 })

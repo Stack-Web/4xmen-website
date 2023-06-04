@@ -899,11 +899,25 @@ header {
   .colorize #preview {
     background-image: url("../img/light.jpg");
     width: 100%;
-    height: 710px;
+    height: 614px;
     position: relative;
     background-repeat: no-repeat;
+    background-size: auto 100%;
     max-width: 100%;
-    transition: 1s;
+    transition: 1s; }
+  .colorize #preview #preview-handle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #d6181a;
+    color: white;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
     cursor: col-resize; }
   .colorize #preview #active {
     background-image: url("../img/dark.jpg");
@@ -915,7 +929,9 @@ header {
     top: 0;
     width: 50%;
     max-width: 100%;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    border-right: 1px dotted rgba(214, 24, 26, 0.2); }
 
 #marq-slider {
   width: 100%;
