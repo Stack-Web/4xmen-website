@@ -5,7 +5,7 @@
           stroke-dasharray="0 0" stroke-opacity="0.54"></path>
     <defs>
         <linearGradient id="SvgjsLinearGradient1002">
-            <stop stop-color="#4b39ef" offset="0"></stop>
+            <stop stop-color="#890002" offset="0"></stop>
             <stop stop-color="#31bfae" offset="1"></stop>
         </linearGradient>
     </defs>
