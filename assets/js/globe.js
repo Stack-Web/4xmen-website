@@ -19,8 +19,8 @@ const globe = createGlobe(canvas, {
     glowColor: [1, 1, 1],
     offset: [0, 0],
     markers: [
-        { location: [37.7595, -122.4367], size: 0.03 },
-        { location: [40.7128, -74.006], size: 0.1 },
+        {location: [34.6416, 50.8746], size: 0.03},
+        {location: [59.3293, 18.0686], size: 0.03},
     ],
     onRender: (state) => {
         // Called on every animation frame.
