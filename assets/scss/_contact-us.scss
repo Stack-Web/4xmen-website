@@ -1,3 +1,8 @@
+@font-face {
+  src: url("../fonts/amiri.ttf");
+  font-family: amiri;
+}
+
 #address {
   .contact-info-content {
     padding: 20px 100px;
@@ -82,5 +87,26 @@ span{
   .input-wrapper textarea:focus {
     outline-color: $color-green;
     border: 1px solid $color-green;
+  }
+}
+#tel-sec{
+  img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  .type-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-shadow: 1px 2px 3px $color-bg2;
+    h4{
+      color: $color-gray;
+      font-family: amiri, Vazirmatn, serif;
+      font-size: $fs-pc-xl;
+      font-weight: bolder;
+      letter-spacing: 1px;
+    }
   }
 }
