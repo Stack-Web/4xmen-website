@@ -30,6 +30,15 @@
   border-right: 1px solid transparent;
   border-image: linear-gradient(0deg, #2ca2b4, #4B39EF 0%, #ddd 80%, #31BFAE 100%);
   border-image-slice: 1;
+  .blogs-small-color-title {
+    background: radial-gradient(circle, #2ca2b4, #5598de 24%, #7f87ff 45%, #ec3d43, #f65aad 76%, );
+    background-clip: text;
+    color: transparent;
+    background: -webkit-linear-gradient(right, #4B39EF 0%, #ddd 80%, #31BFAE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 100px;
+  }
 }
 .blogs-small-des {
   color: $color-gray;
@@ -48,15 +57,7 @@
   transition: all .3s ease-in-out;
   border-radius: 8px;
 }
-.blogs-small-color-title {
-  background: radial-gradient(circle, #2ca2b4, #5598de 24%, #7f87ff 45%, #ec3d43, #f65aad 76%, );
-  background-clip: text;
-  color: transparent;
-  background: -webkit-linear-gradient(right, #4B39EF 0%, #ddd 80%, #31BFAE 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  max-width: 100px;
-}
+
 .medium-title {
   color: $color-text;
   font-size: $fs-pc-xl;
